@@ -1,0 +1,926 @@
+{
+  "schema_version": "1.0",
+  "generated_at_utc": "2025-10-16T21:29:10.191316Z",
+  "doc": {
+    "title": "Nomenclature Sigma-X Series",
+    "doc_no": "900-288-753_2",
+    "source_file": "sigma X series nomenclature.pdf"
+  },
+  "series": {
+    "SGMXA": {
+      "part_number_templates": {
+        "standard": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "f",
+          "g",
+          "h",
+          "i"
+        ],
+        "exclusive_customer": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "j",
+          "k",
+          "l",
+          "m"
+        ],
+        "exclusive_customer_with_region_options": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "h",
+          "i",
+          "j",
+          "k",
+          "l",
+          "m"
+        ],
+        "with_gear": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "n",
+          "o",
+          "f",
+          "g",
+          "h",
+          "i"
+        ],
+        "with_gear_exclusive_customer": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "n",
+          "j",
+          "k",
+          "l",
+          "m"
+        ],
+        "with_gear_exclusive_customer_with_region_options": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "n",
+          "h",
+          "i",
+          "j",
+          "k",
+          "l",
+          "m"
+        ]
+      },
+      "segments": {
+        "a": {
+          "item": "Motor Model",
+          "values": {
+            "SGMXA": "Sigma-X Motor Model: SGMXA"
+          }
+        },
+        "b": {
+          "item": "Motor Output (Rated Output [W])",
+          "values": {
+            "A5": 50,
+            "A8": 80,
+            "01": 100,
+            "C2": 150,
+            "02": 200,
+            "04": 400,
+            "06": 600,
+            "08": 750,
+            "10": 1000,
+            "15": 1500,
+            "20": 2000,
+            "25": 2500,
+            "30": 3000,
+            "40": 4000,
+            "50": 5000,
+            "70": 7000
+          }
+        },
+        "c": {
+          "item": "Power Supply for Servo amp [Vrms]",
+          "values": {
+            "A": 200
+          }
+        },
+        "d": {
+          "item": "Encoder Type",
+          "values": {
+            "L": "26bit Serial Incremental",
+            "U": "26bit Serial Absolute Value",
+            "W": "26bit Serial Batteryless Absolute Value"
+          }
+        },
+        "e": {
+          "item": "Design Revision Order",
+          "values": {
+            "A": "Standard"
+          }
+        },
+        "f": {
+          "item": "Shaft Type",
+          "values": {
+            "0": "Flange Type (without keyway)",
+            "2": "Straight (without keyway)",
+            "3": "1/10 Conical shaft ends, With Sunk Key",
+            "4": "Straight (with keyway)",
+            "5": "1/10 Conical shaft ends, With Woodruff Key",
+            "6": "Straight (with keyway and tapped hole)",
+            "8": "Straight (tapped hole)",
+            "B": "Straight (with double flat key seat)",
+            "S": "Straight (without keyway (φ6 or φ16))",
+            "K": "Straight (with keyway and tapped hole (φ6 or φ16))"
+          }
+        },
+        "g": {
+          "item": "Optional Specifications",
+          "values": {
+            "1": "Without Option",
+            "C": "With Brake (24V)",
+            "S": "With Shaft Seal",
+            "E": "With Brake (24V) and Shaft Seal",
+            "F": "With oil seal (V type)",
+            "H": "With oil seal (V type) and with Brake (24V)"
+          }
+        },
+        "h": {
+          "item": "Region",
+          "values": {
+            "A": "Japan",
+            "B": "Global",
+            "C": "China"
+          }
+        },
+        "i": {
+          "item": "Optional Specifications (Network/Compatibility)",
+          "values": {
+            "1": "Σ-LINK II",
+            "2": "Compatible with Σ-7",
+            "3": "Σ-LINK II safety type",
+            "4": "Compatible with Σ-7 (Σ-LINK II safety type)",
+            "5": "Oil-proof improvement"
+          }
+        },
+        "j": {
+          "item": "Customer Code (1st char)",
+          "values": "A–Z"
+        },
+        "k": {
+          "item": "Customer Code (2nd char)",
+          "values": "A–Z"
+        },
+        "l": {
+          "item": "Design Revision Order For Customer",
+          "values": "A–Z or 0–9"
+        },
+        "m": {
+          "item": "Customer-specific suffix",
+          "values": "Reserved / as assigned"
+        },
+        "n": {
+          "item": "Gear Type",
+          "values": {
+            "H": "Non-backlash Gear"
+          }
+        },
+        "o": {
+          "item": "Reduction Ratio (gear)",
+          "values": {
+            "C": "1/5",
+            "G": "1/9",
+            "J": "1/11",
+            "K": "1/12",
+            "N": "1/20",
+            "P": "1/21",
+            "R": "1/25",
+            "U": "1/33",
+            "X": "1/40"
+          }
+        }
+      }
+    },
+    "SGMXJ": {
+      "part_number_templates": {
+        "standard": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "f",
+          "g",
+          "h",
+          "i"
+        ],
+        "exclusive_customer": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "j",
+          "k",
+          "l",
+          "m"
+        ],
+        "exclusive_customer_with_region_options": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "h",
+          "i",
+          "j",
+          "k",
+          "l",
+          "m"
+        ],
+        "with_gear": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "n",
+          "o",
+          "f",
+          "g",
+          "h",
+          "i"
+        ],
+        "with_gear_exclusive_customer": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "n",
+          "j",
+          "k",
+          "l",
+          "m"
+        ],
+        "with_gear_exclusive_customer_with_region_options": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "n",
+          "h",
+          "i",
+          "j",
+          "k",
+          "l",
+          "m"
+        ]
+      },
+      "segments": {
+        "a": {
+          "item": "Motor Model",
+          "values": {
+            "SGMXJ": "Sigma-X Motor Model: SGMXJ"
+          }
+        },
+        "b": {
+          "item": "Motor Output (Rated Output [W])",
+          "values": {
+            "A5": 50,
+            "A8": 80,
+            "01": 100,
+            "C2": 150,
+            "02": 200,
+            "04": 400,
+            "06": 600,
+            "08": 750
+          }
+        },
+        "c": {
+          "item": "Power Supply for Servo amp [Vrms]",
+          "values": {
+            "A": 200
+          }
+        },
+        "d": {
+          "item": "Encoder Type",
+          "values": {
+            "L": "26bit Serial Incremental",
+            "U": "26bit Serial Absolute Value",
+            "W": "26bit Serial Batteryless Absolute Value"
+          }
+        },
+        "e": {
+          "item": "Design Revision Order",
+          "values": {
+            "A": "Standard"
+          }
+        },
+        "f": {
+          "item": "Shaft Type",
+          "values": {
+            "0": "Flange Type (without keyway)",
+            "2": "Straight (without keyway)",
+            "6": "Straight (with keyway and tapped hole)",
+            "8": "Straight (tapped hole)",
+            "B": "Straight (with double flat key seat)",
+            "S": "Straight (without keyway (φ6 or φ16))",
+            "K": "Straight (with keyway and tapped hole (φ6 or φ16))"
+          }
+        },
+        "g": {
+          "item": "Optional Specifications",
+          "values": {
+            "1": "Without Option",
+            "C": "With Brake (24V)",
+            "S": "With Shaft Seal",
+            "E": "With Brake (24V) and Shaft Seal"
+          }
+        },
+        "h": {
+          "item": "Region",
+          "values": {
+            "A": "Japan",
+            "B": "Global",
+            "C": "China"
+          }
+        },
+        "i": {
+          "item": "Optional Specifications (Network/Compatibility)",
+          "values": {
+            "1": "Σ-LINK II",
+            "2": "Compatible with Σ-7",
+            "3": "Σ-LINK II safety type",
+            "4": "Compatible with Σ-7 (Σ-LINK II safety type)",
+            "5": "Oil-proof improvement"
+          }
+        },
+        "j": {
+          "item": "Customer Code (1st char)",
+          "values": "A–Z"
+        },
+        "k": {
+          "item": "Customer Code (2nd char)",
+          "values": "A–Z"
+        },
+        "l": {
+          "item": "Design Revision Order For Customer",
+          "values": "A–Z or 0–9"
+        },
+        "m": {
+          "item": "Customer-specific suffix",
+          "values": "Reserved / as assigned"
+        },
+        "n": {
+          "item": "Gear Type",
+          "values": {
+            "H": "Non-backlash Gear"
+          }
+        },
+        "o": {
+          "item": "Reduction Ratio (gear)",
+          "values": {
+            "C": "1/5",
+            "G": "1/9",
+            "J": "1/11",
+            "P": "1/21",
+            "U": "1/33"
+          }
+        }
+      },
+      "notes": [
+        "Other Exclusive Design for Customer example: SGMXJ-A3E7VA2-YA11"
+      ]
+    },
+    "SGMXG": {
+      "part_number_templates": {
+        "standard": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "f",
+          "g",
+          "h",
+          "i"
+        ],
+        "exclusive_customer": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "j",
+          "k",
+          "l",
+          "m"
+        ],
+        "exclusive_customer_with_region_options": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "h",
+          "i",
+          "j",
+          "k",
+          "l",
+          "m"
+        ],
+        "with_gear": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "n",
+          "o",
+          "f",
+          "g",
+          "h",
+          "i"
+        ],
+        "with_gear_exclusive_customer": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "n",
+          "j",
+          "k",
+          "l",
+          "m"
+        ],
+        "with_gear_exclusive_customer_with_region_options": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "n",
+          "h",
+          "i",
+          "j",
+          "k",
+          "l",
+          "m"
+        ]
+      },
+      "segments": {
+        "a": {
+          "item": "Motor Model",
+          "values": {
+            "SGMXG": "Sigma-X Motor Model: SGMXG"
+          }
+        },
+        "b": {
+          "item": "Motor Output [kW] by Rated Speed",
+          "values": {
+            "03": {
+              "1500min^-1": 0.3,
+              "1000min^-1": 0.3
+            },
+            "05": {
+              "1500min^-1": 0.45,
+              "1000min^-1": null
+            },
+            "06": {
+              "1500min^-1": null,
+              "1000min^-1": 0.6
+            },
+            "09": {
+              "1500min^-1": 0.85,
+              "1000min^-1": 0.9
+            },
+            "12": {
+              "1500min^-1": null,
+              "1000min^-1": 1.2
+            },
+            "13": {
+              "1500min^-1": 1.3,
+              "1000min^-1": null
+            },
+            "20": {
+              "1500min^-1": 1.8,
+              "1000min^-1": 2.0
+            },
+            "30": {
+              "1500min^-1": 2.9,
+              "1000min^-1": 3.0
+            },
+            "40": {
+              "1500min^-1": null,
+              "1000min^-1": 4.0
+            },
+            "44": {
+              "1500min^-1": 4.4,
+              "1000min^-1": 4.4
+            },
+            "55": {
+              "1500min^-1": 5.5,
+              "1000min^-1": 5.5
+            },
+            "75": {
+              "1500min^-1": 7.5,
+              "1000min^-1": null
+            },
+            "1A": {
+              "1500min^-1": 11.0,
+              "1000min^-1": null
+            },
+            "1E": {
+              "1500min^-1": 15.0,
+              "1000min^-1": null
+            }
+          }
+        },
+        "c": {
+          "item": "Power Supply Voltages [Vrms]",
+          "values": {
+            "A": 200
+          }
+        },
+        "d": {
+          "item": "Encoder Type",
+          "values": {
+            "L": "26bit Serial Incremental",
+            "U": "26bit Serial Absolute Value",
+            "W": "26bit Serial Batteryless Absolute Value"
+          }
+        },
+        "e": {
+          "item": "Design Revision Order",
+          "values": {
+            "A": "Standard. Rated Speed 1500min^-1",
+            "B": "Rated speed 1000min^-1",
+            "L": "Reduced output type"
+          }
+        },
+        "f": {
+          "item": "Shaft Type",
+          "values": {
+            "2": "Straight (without keyway)",
+            "3": "1/10 Conical shaft ends, With Sunk Key",
+            "4": "Straight (with keyway)",
+            "5": "1/10 Conical shaft ends, With Woodruff Key",
+            "6": "Straight (with keyway and tapped hole)",
+            "8": "Straight (tapped hole)",
+            "S": "Straight (without keyway), small size",
+            "K": "Straight (with keyway and tapped hole), small size",
+            "T": "Straight (tapped hole), small size",
+            "U": "Straight (with keyway), small size"
+          }
+        },
+        "g": {
+          "item": "Optional Specifications",
+          "values": {
+            "1": "Without Option",
+            "C": "With Brake (24V)",
+            "S": "With oil seal (S type)",
+            "E": "With oil seal (S type) and with Brake (24V)",
+            "F": "With oil seal (V type)",
+            "H": "With oil seal (V type) and with Brake (24V)"
+          }
+        },
+        "h": {
+          "item": "Region",
+          "values": {
+            "A": "Japan",
+            "B": "Global",
+            "C": "China"
+          }
+        },
+        "i": {
+          "item": "Optional Specifications (Network/Compatibility)",
+          "values": {
+            "1": "Σ-LINK II",
+            "2": "Compatible with Σ-7",
+            "3": "Σ-LINK II safety type",
+            "4": "Compatible with Σ-7 (Σ-LINK II safety type)",
+            "5": "Oil-proof improvement (Compatible with Σ-7)"
+          }
+        },
+        "j": {
+          "item": "Customer Code (1st char)",
+          "values": "A–Z"
+        },
+        "k": {
+          "item": "Customer Code (2nd char)",
+          "values": "A–Z"
+        },
+        "l": {
+          "item": "Design Revision Order For Customer",
+          "values": "A–Z or 0–9"
+        },
+        "m": {
+          "item": "Customer-specific suffix",
+          "values": "Reserved / as assigned"
+        },
+        "n": {
+          "item": "Gear Type",
+          "values": {
+            "E": "Standard Backlash Gear (with foot)",
+            "F": "Standard Backlash Gear (flange mount)",
+            "H": "Low-Backlash Gear"
+          }
+        },
+        "o": {
+          "item": "Reduction Ratio",
+          "values_by_gear_type": {
+            "Low-backlash Gear": {
+              "codes": {
+                "C": "1/5",
+                "J": "1/11",
+                "K": "1/12",
+                "N": "1/20",
+                "P": "1/21",
+                "R": "1/25",
+                "U": "1/33",
+                "X": "1/40",
+                "Z": "1/45"
+              }
+            },
+            "Standard Backlash Gear": {
+              "codes": {
+                "D": "1/6",
+                "J": "1/11",
+                "P": "1/21",
+                "S": "1/29",
+                "Y": "1/43"
+              }
+            }
+          }
+        }
+      }
+    },
+    "SGMXP": {
+      "part_number_templates": {
+        "standard": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "f",
+          "g",
+          "h",
+          "i"
+        ],
+        "exclusive_customer": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "j",
+          "k",
+          "l",
+          "m"
+        ],
+        "exclusive_customer_with_region_options": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "h",
+          "i",
+          "j",
+          "k",
+          "l",
+          "m"
+        ],
+        "with_gear": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "n",
+          "o",
+          "f",
+          "g",
+          "h",
+          "i"
+        ],
+        "with_gear_exclusive_customer": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "n",
+          "j",
+          "k",
+          "l",
+          "m"
+        ],
+        "with_gear_exclusive_customer_with_region_options": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "n",
+          "h",
+          "i",
+          "j",
+          "k",
+          "l",
+          "m"
+        ]
+      },
+      "segments": {
+        "a": {
+          "item": "Motor Model",
+          "values": {
+            "SGMXP": "Sigma-X Motor Model: SGMXP"
+          }
+        },
+        "b": {
+          "item": "Motor Output (Rated Output [W])",
+          "values": {
+            "A8": 80,
+            "01": 100,
+            "02": 200,
+            "04": 400,
+            "08": 750,
+            "15": 1500
+          }
+        },
+        "c": {
+          "item": "Power Supply for Servo amp [Vrms]",
+          "values": {
+            "A": 200
+          }
+        },
+        "d": {
+          "item": "Encoder Type",
+          "values": {
+            "L": "26bit Serial Incremental",
+            "U": "26bit Serial Absolute Value",
+            "W": "26bit Serial Batteryless Absolute Value"
+          }
+        },
+        "e": {
+          "item": "Design Revision Order",
+          "values": {
+            "A": "Standard"
+          }
+        },
+        "f": {
+          "item": "Shaft Type",
+          "values": {
+            "0": "Flange Type (without keyway)",
+            "2": "Straight (without keyway)",
+            "4": "Straight (with keyway)",
+            "6": "Straight (with keyway and tapped hole)",
+            "8": "Straight (tapped hole)",
+            "A": "Straight (with single flat key seat)",
+            "B": "Straight (with double flat key seat)",
+            "S": "Straight (without keyway, small size)",
+            "K": "Straight (with keyway and tapped hole, small size)"
+          }
+        },
+        "g": {
+          "item": "Optional Specifications",
+          "notes": "For 80/100/200/400 W simple options; for 750/1500 W, codes also encode lead-wire length and connector type.",
+          "values_for_80_400W": {
+            "1": "Without Option",
+            "C": "With Brake (24V)",
+            "S": "With Shaft Seal",
+            "E": "With Brake (24V) and Shaft Seal"
+          },
+          "values_for_750_1500W": {
+            "lead_wire_length_mm": [
+              300,
+              500,
+              1000,
+              1500
+            ],
+            "standard_connector": {
+              "without_option": [
+                "1",
+                "1H",
+                "1J",
+                "1K"
+              ],
+              "with_brake_24V": [
+                "C",
+                "CH",
+                "CJ",
+                "CK"
+              ],
+              "with_shaft_seal": [
+                "S",
+                "SH",
+                "SJ",
+                "SK"
+              ],
+              "with_brake_and_shaft_seal": [
+                "E",
+                "EH",
+                "EJ",
+                "EK"
+              ]
+            },
+            "drip_proofed_connector": {
+              "without_option": [
+                "1D",
+                "1E",
+                "1F",
+                "1G"
+              ],
+              "with_brake_24V": [
+                "CD",
+                "CE",
+                "CF",
+                "CG"
+              ],
+              "with_shaft_seal": [
+                "SD",
+                "SE",
+                "SF",
+                "SG"
+              ],
+              "with_brake_and_shaft_seal": [
+                "ED",
+                "EE",
+                "EF",
+                "EG"
+              ]
+            }
+          }
+        },
+        "h": {
+          "item": "Region",
+          "values": {
+            "A": "Japan",
+            "B": "Global",
+            "C": "China"
+          }
+        },
+        "i": {
+          "item": "Optional Specifications (Network/Compatibility)",
+          "values": {
+            "1": "Σ-LINK II",
+            "2": "Compatible with Σ-7",
+            "3": "Σ-LINK II safety type",
+            "4": "Compatible with Σ-7 (Σ-LINK II safety type)",
+            "5": "Oil-proof improvement"
+          }
+        },
+        "j": {
+          "item": "Customer Code (1st char)",
+          "values": "A–Z"
+        },
+        "k": {
+          "item": "Customer Code (2nd char)",
+          "values": "A–Z"
+        },
+        "l": {
+          "item": "Design Revision Order For Customer",
+          "values": "A–Z or 0–9"
+        },
+        "m": {
+          "item": "Customer-specific suffix",
+          "values": "Reserved / as assigned"
+        },
+        "n": {
+          "item": "Gear Type",
+          "values": {
+            "H": "Non-backlash Gear"
+          }
+        },
+        "o": {
+          "item": "Reduction Ratio (gear)",
+          "values": {
+            "C": "1/5",
+            "G": "1/9",
+            "J": "1/11",
+            "P": "1/21",
+            "U": "1/33"
+          }
+        }
+      }
+    }
+  }
+}
