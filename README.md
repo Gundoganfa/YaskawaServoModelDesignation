@@ -51,7 +51,11 @@ http-server -p 8080
 
 Tarayıcınızda şu adresi açın:
 ```
-http://localhost:8080/servo_selector.html
+http://localhost:8080
+```
+veya
+```
+http://localhost:8080/index.html
 ```
 
 ## 📖 Kullanım Kılavuzu
@@ -170,10 +174,11 @@ Analiz Sonucu:
 ### Dosya Yapısı
 ```
 ServoSelection/
-├── servo_selector.html          # Ana HTML dosyası
+├── index.html                   # Ana HTML dosyası
 ├── servo_selector.js            # JavaScript logic
 ├── sigma_x_series_nomenclature.json  # Sigma-X veri
 ├── sigma_7_series_nomenclature.json  # Sigma-7 veri
+├── vercel.json                  # Vercel deployment config
 └── README.md                    # Bu dosya
 ```
 
