@@ -16,7 +16,8 @@
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             min-height: 100vh;
             padding: 0;
-            padding-bottom: 40px;
+            padding-bottom: 80px;
+            overflow-x: auto;
         }
 
         .container {
@@ -43,6 +44,7 @@
             border-radius: 15px;
             padding: 25px;
             box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            overflow-x: auto;
         }
 
         .card-title {
@@ -135,6 +137,8 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            overflow-x: auto;
+            overflow-y: hidden;
         }
 
         .part-segment {
@@ -159,6 +163,7 @@
             padding: 15px;
             margin-bottom: 15px;
             font-size: 0.9rem;
+            overflow-x: auto;
         }
 
         .segment-info-item {
@@ -371,6 +376,7 @@
             align-items: center;
             justify-content: space-between;
             padding: 0 30px;
+            overflow-x: auto;
         }
 
         .navbar-brand {
@@ -470,6 +476,7 @@
             text-transform: uppercase;
             letter-spacing: 2px;
             transition: all 0.3s;
+            min-width: 0;
         }
 
         .code-input:focus {
@@ -504,6 +511,7 @@
             border-radius: 15px;
             padding: 25px;
             margin-top: 20px;
+            overflow-x: auto;
         }
 
         .decoded-item {
@@ -543,6 +551,8 @@
             font-weight: bold;
             color: #333;
             margin-bottom: 5px;
+            word-break: break-all;
+            overflow-wrap: break-word;
         }
 
         .decoded-description {
@@ -572,6 +582,8 @@
             color: #333;
             font-family: 'Courier New', monospace;
             letter-spacing: 3px;
+            word-break: break-all;
+            overflow-wrap: break-word;
         }
 
         .decoded-series-name {
@@ -615,7 +627,82 @@
             }
 
             .part-code {
+                font-size: 1.2rem;
+                letter-spacing: 1px;
+            }
+
+            .code-input-wrapper {
+                flex-direction: column;
+            }
+
+            .code-input {
+                font-size: 1rem;
+                letter-spacing: 1px;
+            }
+
+            .decoded-model {
                 font-size: 1.5rem;
+                letter-spacing: 2px;
+            }
+
+            .decoded-code {
+                font-size: 1rem;
+            }
+
+            .container {
+                padding: 0 10px;
+            }
+
+            .card {
+                padding: 15px;
+            }
+
+            .filter-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Footer Styles */
+        .footer {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            padding: 15px 30px;
+            box-shadow: 0 -5px 20px rgba(0, 0, 0, 0.2);
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            z-index: 999;
+        }
+
+        .footer-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            overflow-x: auto;
+        }
+
+        .footer-logo {
+            height: 50px;
+            max-width: 300px;
+            width: auto;
+            opacity: 0.9;
+            transition: opacity 0.3s;
+        }
+
+        .footer-logo:hover {
+            opacity: 1;
+        }
+
+        @media (max-width: 768px) {
+            .footer {
+                padding: 10px 20px;
+            }
+
+            .footer-logo {
+                height: 40px;
+                max-width: 200px;
             }
         }
     </style>
@@ -627,8 +714,8 @@
             <div class="navbar-brand">
                 <div class="navbar-logo">⚙️</div>
                 <div class="navbar-title">
-                    <h1>Yaskawa Servo Motor Aracı</h1>
-                    <p>Profesyonel Servo Motor Seçim ve Analiz Platformu</p>
+                    <h1>Yaskawa Servo Motor Nomenclature</h1>
+                    <p>Servo Motor Kodlarının Ne Anlama Geldiğini Merak Edenler İçin.</p>
                 </div>
             </div>
             <div class="nav-tabs">
@@ -874,6 +961,13 @@
         <!-- End Decoder Tab -->
 
     </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <img src="Images/byFG.png" alt="byFG" class="footer-logo">
+        </div>
+    </footer>
 
     <script src="servo_selector.js"></script>
 </body>
